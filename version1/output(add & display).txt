@@ -1,0 +1,105 @@
+----Student Record Managent System----
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:1 
+Function to add student:
+Enter student's USN:
+1
+Enter student's NAME:
+ammu
+Enter student's AGE:
+19
+Enter student's BRANCH:
+CSE
+Enter student's current SEMESTER:
+3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:2
+to display students
+Number of students=1
+Student 1:-
+USN:1
+NAME:ammu
+Age:19
+BRANCH:CSE
+SEMESTER:3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:1
+Function to add student:
+Enter student's USN:
+2
+Enter student's NAME:
+Manu
+Enter student's AGE:
+19
+Enter student's BRANCH:
+ISE
+Enter student's current SEMESTER:
+3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:1
+Function to add student:
+Enter student's USN:
+3
+Enter student's NAME:
+Vinu
+Enter student's AGE:
+19
+Enter student's BRANCH:
+AIML
+Enter student's current SEMESTER:
+3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:2
+to display students
+Number of students=3
+Student 1:-
+USN:1
+NAME:ammu
+Age:19
+BRANCH:CSE
+SEMESTER:3
+Student 2:-
+USN:2
+NAME:Manu
+Age:19
+BRANCH:ISE
+SEMESTER:3
+Student 3:-
+USN:3
+NAME:Vinu
+Age:19
+BRANCH:AIML
+SEMESTER:3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:6
+ To exit loop:
