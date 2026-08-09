@@ -13,6 +13,7 @@ struct Student students[100];
 
 void addStudent();
 void displayStudent();
+void searchStudent();
 
 int main()
 {
@@ -37,7 +38,8 @@ int main()
     break;
 
   case 3:
-    printf("to search students:");
+    printf("to search students:\n");
+    searchStudent();
     break;
 
   case 4:
@@ -83,7 +85,7 @@ void addStudent()
 void displayStudent()
 {
   if(studentCount==0)
-  printf("No student records found:");
+  printf("No student records found.\n");
   else
   {
   printf("Number of students=%d\n",studentCount);
@@ -98,4 +100,30 @@ void displayStudent()
   }
   }
   
+}
+
+void searchStudent()
+{
+ int usn;
+ int found=0;
+ printf("Enter usn to search:");
+ scanf("%d",&usn);
+ for(int i=0;i<studentCount;i++)
+ {
+  if(usn==students[i].usn)
+  {
+    printf("Student Found.\n");
+    printf("Student Name:%s\n",students[i].name);
+    printf("Student's Age:%d\n",students[i].age);
+    printf("Student's Branch:%s\n",students[i].branch);
+    printf("Student's Current semester:%d\n",students[i].semester);
+    found++;
+  }
+  
+  
+ }
+ if(found==0)
+ {
+  printf("Student not found!!\n");
+ }
 }
