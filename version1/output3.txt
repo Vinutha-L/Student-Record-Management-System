@@ -1,0 +1,420 @@
+Added update student function 
+
+
+output:-
+
+
+ ./main
+----Student Record Managent System----
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:1
+Function to add student:
+Enter student's USN:
+1
+Enter student's NAME:
+Amulya
+Enter student's AGE:
+19
+Enter student's BRANCH:
+CSE
+Enter student's current SEMESTER:
+3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:1
+Function to add student:
+Enter student's USN:
+2
+Enter student's NAME:
+Madhu
+Enter student's AGE:
+18
+Enter student's BRANCH:
+AIML
+Enter student's current SEMESTER:
+3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:1
+Function to add student:
+Enter student's USN:
+3
+Enter student's NAME:
+Vinutha
+Enter student's AGE:
+19
+Enter student's BRANCH:
+ISE
+Enter student's current SEMESTER:
+4
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:4
+To update student
+Enter USN:1
+Student Found.---Select the deatail that needs to be updated---1.NAME
+ 2.USN
+ 3.AGE
+ 4.BRANCH
+ 5.SEMESTER
+Enter your choice:1
+Enter new NAME:Akshaya
+Updated successfully.1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:2
+to display students
+Number of students=3
+Student 1:-
+USN:1
+NAME:Akshaya
+Age:19
+BRANCH:CSE
+SEMESTER:3
+Student 2:-
+USN:2
+NAME:Madhu
+Age:18
+BRANCH:AIML
+SEMESTER:3
+Student 3:-
+USN:3
+NAME:Vinutha
+Age:19
+BRANCH:ISE
+SEMESTER:4
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:4
+To update student
+Enter USN:1
+Student Found.---Select the deatail that needs to be updated---1.NAME
+ 2.USN
+ 3.AGE
+ 4.BRANCH
+ 5.SEMESTER
+Enter your choice:3
+Enter new AGE:18
+Updated successfully.1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:4
+To update student
+Enter USN:2
+Student Found.---Select the deatail that needs to be updated---1.NAME
+ 2.USN
+ 3.AGE
+ 4.BRANCH
+ 5.SEMESTER
+Enter your choice:6
+Enter a valid choice.!!---Select the deatail that needs to be updated---1.NAME
+ 2.USN
+ 3.AGE
+ 4.BRANCH
+ 5.SEMESTER
+Enter your choice:2
+Enter new USN:4
+Updated successfully.1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:4
+To update student
+Enter USN:2
+Student not Found!!1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:4
+To update student
+Enter USN:3
+Student Found.---Select the deatail that needs to be updated---1.NAME
+ 2.USN
+ 3.AGE
+ 4.BRANCH
+ 5.SEMESTER
+Enter your choice:4
+Enter new BRANCH:AIML
+Updated successfully.1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:4
+To update student
+Enter USN:3
+Student Found.---Select the deatail that needs to be updated---1.NAME
+ 2.USN
+ 3.AGE
+ 4.BRANCH
+ 5.SEMESTER
+Enter your choice:5
+Enter new SEMESTER:3
+Updated successfully.1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:2
+to display students
+Number of students=3
+Student 1:-
+USN:1
+NAME:Akshaya
+Age:18
+BRANCH:CSE
+SEMESTER:3
+Student 2:-
+USN:4
+NAME:Madhu
+Age:18
+BRANCH:AIML
+SEMESTER:3
+Student 3:-
+USN:3
+NAME:Vinutha
+Age:19
+BRANCH:AIML
+SEMESTER:3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:6
+Exiting program...
+
+
+
+//Delete student function added 
+
+output:-
+
+./main
+----Student Record Managent System----
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:1
+Function to add student:
+Enter student's USN:
+1
+Enter student's NAME:
+Amulya
+Enter student's AGE:
+19
+Enter student's BRANCH:
+CSE
+Enter student's current SEMESTER:
+3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:1
+Function to add student:
+Enter student's USN:
+2
+Enter student's NAME:
+Madhu
+Enter student's AGE:
+19
+Enter student's BRANCH:
+ISE
+Enter student's current SEMESTER:
+3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:1
+Function to add student:
+Enter student's USN:
+3
+Enter student's NAME:
+Vinutha
+Enter student's AGE:
+19 
+Enter student's BRANCH:
+AIML
+Enter student's current SEMESTER:
+3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:2
+to display students
+Number of students=3
+Student 1:-
+USN:1
+NAME:Amulya
+Age:19
+BRANCH:CSE
+SEMESTER:3
+Student 2:-
+USN:2
+NAME:Madhu
+Age:19
+BRANCH:ISE
+SEMESTER:3
+Student 3:-
+USN:3
+NAME:Vinutha
+Age:19
+BRANCH:AIML
+SEMESTER:3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:5
+To delete student
+Enter usn has to be deleted:2
+Student Found.
+Student deleted successfully.
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:2
+to display students
+Number of students=2
+Student 1:-
+USN:1
+NAME:Amulya
+Age:19
+BRANCH:CSE
+SEMESTER:3
+Student 2:-
+USN:3
+NAME:Vinutha
+Age:19
+BRANCH:AIML
+SEMESTER:3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:5
+To delete student
+Enter usn has to be deleted:1
+Student Found.
+Student deleted successfully.
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:2
+to display students
+Number of students=1
+Student 1:-
+USN:3
+NAME:Vinutha
+Age:19
+BRANCH:AIML
+SEMESTER:3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:5
+To delete student
+Enter usn has to be deleted:1
+Student Not found.
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:2
+to display students
+Number of students=1
+Student 1:-
+USN:3
+NAME:Vinutha
+Age:19
+BRANCH:AIML
+SEMESTER:3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:5
+To delete student
+Enter usn has to be deleted:3
+Student Found.
+Student deleted successfully.
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:2
+to display students
+No student records found.
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:6
+Exiting program...

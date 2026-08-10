@@ -14,6 +14,8 @@ struct Student students[100];
 void addStudent();
 void displayStudent();
 void searchStudent();
+void updateStudent();
+void deleteStudent();
 
 int main()
 {
@@ -43,15 +45,17 @@ int main()
     break;
 
   case 4:
-    printf("To update student");
+    printf("To update student\n");
+    updateStudent();
     break;
 
   case 5:
-    printf("To delete student");
+    printf("To delete student\n");
+    deleteStudent();
     break;
 
   case 6:
-    printf(" To exit loop:");
+      printf("Exiting program...\n");
       break;
 
   default:
@@ -126,4 +130,99 @@ void searchStudent()
  {
   printf("Student not found!!\n");
  }
+}
+
+void updateStudent()
+{
+  int n,ch;
+  int found=0;
+  printf("Enter USN:");
+  scanf("%d",&n);
+  for(int i=0;i<studentCount;i++)
+  {
+    if(n==students[i].usn)
+    {
+      found=1;
+      printf("Student Found.\n");
+      do{
+      printf("---Select the deatail that needs to be updated---");
+      printf("\n1.NAME\n 2.USN\n 3.AGE\n 4.BRANCH\n 5.SEMESTER\n");
+      printf("Enter your choice:");
+      scanf("%d",&ch);
+
+      switch (ch)
+      {
+      case 1:
+        printf("Enter new NAME:");
+        scanf("%s",students[i].name);
+        printf("Updated successfully.\n");
+        break;
+      
+      case 2:
+        printf("Enter new USN:");
+        scanf("%d",&students[i].usn);
+        printf("Updated successfully.");
+        break;
+
+      case 3:
+        printf("Enter new AGE:");
+        scanf("%d",&students[i].age);
+        printf("Updated successfully.");
+        break;
+
+      case 4:
+        printf("Enter new BRANCH:");
+        scanf("%s",students[i].branch);
+        printf("Updated successfully.");
+        break;
+
+      case 5:
+        printf("Enter new SEMESTER:");
+        scanf("%d",&students[i].semester);
+        printf("Updated successfully.");
+        break;
+      
+      default:
+        printf("Enter a valid choice.!!\n");
+        break;
+      }}while(ch<1||ch>5);
+    }
+  }
+
+  if(found==0)
+  {
+    printf("Student not Found!!");
+  }
+}
+
+void deleteStudent()
+{
+  int usn;
+  int found=0;
+  printf("Enter usn has to be deleted:");
+  scanf("%d",&usn);
+
+  for(int i=0;i<studentCount;i++)
+  {
+    if(usn==students[i].usn)
+    {
+      found=1;
+      printf("Student Found.\n");
+
+      for(int j=i;j<studentCount-1;j++)
+      {
+        students[j]=students[j+1];
+        
+      }
+      studentCount--;
+      printf("Student deleted successfully.\n");
+
+    }
+  }
+
+  if(found==0)
+  {
+    printf("Student Not found.\n");
+  }
+
 }
