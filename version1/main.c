@@ -20,7 +20,7 @@ void deleteStudent();
 int main()
 {
   int ch;
-  printf("----Student Record Managent System----\n");
+  printf("----Student Record Management System----\n");
   
   do{
   printf("1.Add student\n2.Display students\n3.Search student\n4.Update student\n5.Delete student\n6.Exit\n");
@@ -30,27 +30,22 @@ int main()
   switch (ch)
   {
   case 1:
-    printf("Function to add student:\n");
     addStudent();
     break;
   
   case 2:
-    printf("to display students\n");
     displayStudent();
     break;
 
   case 3:
-    printf("to search students:\n");
     searchStudent();
     break;
 
   case 4:
-    printf("To update student\n");
     updateStudent();
     break;
 
   case 5:
-    printf("To delete student\n");
     deleteStudent();
     break;
 
