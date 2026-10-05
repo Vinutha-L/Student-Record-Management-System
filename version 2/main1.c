@@ -23,8 +23,14 @@ int main()
 {
   int ch;
   printf("----Student Record Management System----\n");
-  fp = fopen("student.data","rb");
-  
+  fp = fopen("students.dat", "rb");
+
+  if (fp != NULL)
+  {
+      studentCount = fread(students, sizeof(struct Student), 100, fp);
+      fclose(fp);
+  }
+    
   do{
   printf("1.Add student\n2.Display students\n3.Search student\n4.Update student\n5.Delete student\n6.Exit\n");
   printf("Enter your choice:");
@@ -81,6 +87,14 @@ void addStudent()
   printf("Enter student's current SEMESTER:\n");
   scanf("%d",&students[studentCount].semester);
   studentCount++;
+
+  fp = fopen("students.dat", "wb");
+
+  if (fp != NULL)
+  {
+      fwrite(students, sizeof(struct Student), studentCount, fp);
+      fclose(fp);
+  }
 
 }
 
@@ -183,7 +197,18 @@ void updateStudent()
       default:
         printf("Enter a valid choice.!!\n");
         break;
-      }}while(ch<1||ch>5);
+      }    
+      }while(ch<1||ch>5);
+
+      fp = fopen("students.dat", "wb");
+
+      if(fp != NULL)
+      {
+        fwrite(students, sizeof(struct Student), studentCount, fp);
+        fclose(fp);
+      }
+    }
+  }
     }
   }
 

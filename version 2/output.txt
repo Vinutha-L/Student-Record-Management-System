@@ -1,0 +1,57 @@
+./main1
+----Student Record Management System----
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:1
+Enter student's USN:
+01
+Enter student's NAME:
+Amulya
+Enter student's AGE:
+18
+Enter student's BRANCH:
+ISE
+Enter student's current SEMESTER:
+3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:6
+Exiting program...
+
+VINU@DESKTOP-QMQJD5S UCRT64 /c/Users/USER/Documents/GitHub/Student-Record-Management-System/version 2
+$ ls
+main1.c  main1.exe  students.dat
+
+VINU@DESKTOP-QMQJD5S UCRT64 /c/Users/USER/Documents/GitHub/Student-Record-Management-System/version 2
+$ ./main1
+----Student Record Management System----
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:2
+Number of students=1
+Student 1:-
+USN:1
+NAME:Amulya
+Age:18
+BRANCH:ISE
+SEMESTER:3
+1.Add student
+2.Display students
+3.Search student
+4.Update student
+5.Delete student
+6.Exit
+Enter your choice:6
+Exiting program...
