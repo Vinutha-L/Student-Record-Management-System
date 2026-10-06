@@ -109,7 +109,7 @@ Student-Record-Management-System/
 │
 ├── README.md
 │
-├── version1/
+├── version 1/
 │   └── main.c
 │
 └── version 2/
